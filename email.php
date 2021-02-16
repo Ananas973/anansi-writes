@@ -23,11 +23,11 @@ $message .= 'Message : ' . $msg;
 if (@mail($to, $subject, $message, $email_from))
 {
 	// Transfer the value 'sent' to ajax function for showing success message.
-	echo 'message envoyé';
+	echo 'Message bien envoyé';
 }
 else
 {
 	// Transfer the value 'failed' to ajax function for showing error message.
-	echo 'message non transmis';
+	echo 'Message non transmis, réessayez !';
 }
 ?>
