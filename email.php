@@ -1,5 +1,5 @@
 <?php
-$subject = 'You Got Message'; // Subject of your email
+$subject = 'Anansi Writes a reçu un message !'; // Subject of your email
 $to = 'contact@anansi-writes.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
